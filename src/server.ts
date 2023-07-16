@@ -2,9 +2,11 @@ import express from "express";
 import fileupload from "express-fileupload";
 import morgan from "morgan";
 import helmet from "helmet";
+import cors from "cors";
 
 // ROUTES
 import UserRoutes from "./routes/user.routes";
+import AuthRoutes from "./auth/auth.routes";
 
 class Server {
   public app: express.Application;
@@ -25,10 +27,12 @@ class Server {
     /* Middleware y dependencias importantes de nuestra API */
     this.app.use(morgan("dev"));
     this.app.use(helmet());
+    this.app.use(cors());
   }
 
   routes() {
     /* Las routes de nuestra API */
+    this.app.use(AuthRoutes);
     this.app.use(UserRoutes);
   }
 
