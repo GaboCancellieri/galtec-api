@@ -3,9 +3,10 @@ import fileupload from "express-fileupload";
 import morgan from "morgan";
 import helmet from "helmet";
 import cors from "cors";
+import { connectToMongo } from "./config/DatabaseConfig";
 
 // ROUTES
-import UserRoutes from "./routes/user.routes";
+import UserRoutes from "./objects/User/User.routes";
 import AuthRoutes from "./auth/auth.routes";
 
 class Server {
@@ -19,6 +20,7 @@ class Server {
     this.app.use(express.json({ limit: "200mb" }));
     this.app.use(fileupload());
     this.app.set("port", this.port);
+    connectToMongo();
     this.config();
     this.routes();
   }

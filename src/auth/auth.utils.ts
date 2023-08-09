@@ -1,3 +1,5 @@
+import User from "../objects/User/User.schema";
+
 export const isValidEmail = (email: string) => {
   return email
     .toLowerCase()
@@ -8,4 +10,8 @@ export const isValidEmail = (email: string) => {
 
 export const isValidPassword = (password: string) => {
   return password.length >= 8;
+};
+
+export const findUser = (email: string) => {
+  return User.findOne({ email });
 };
