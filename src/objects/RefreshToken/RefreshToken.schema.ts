@@ -2,7 +2,7 @@ import { model, Schema } from "mongoose";
 import { IRefreshToken } from "./RefreshToken.types";
 
 const RefreshTokenSchema = new Schema({
-  token: { type: String, require: true },
+  token: { type: String, require: true, unique: true },
 });
 
 // Duplicate the ID field - _id --> id

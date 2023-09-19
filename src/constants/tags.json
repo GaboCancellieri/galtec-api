@@ -1,0 +1,520 @@
+{
+  "tags": [
+    {
+      "category": "Rock",
+      "name": "Rock"
+    },
+    {
+      "category": "Metal",
+      "name": "Metal"
+    },
+    {
+      "category": "Jazz",
+      "name": "Jazz"
+    },
+    {
+      "category": "Rock",
+      "name": "Alternative Rock"
+    },
+    {
+      "category": "Rock",
+      "name": "Punk Rock"
+    },
+    {
+      "category": "Rock",
+      "name": "Hard Rock"
+    },
+    {
+      "category": "Rock",
+      "name": "Progressive Rock"
+    },
+    {
+      "category": "Rock",
+      "name": "Folk Rock"
+    },
+    {
+      "category": "Rock",
+      "name": "Psychedelic Rock"
+    },
+    {
+      "category": "Rock",
+      "name": "Indie Rock"
+    },
+    {
+      "category": "Electronic",
+      "name": "House"
+    },
+    {
+      "category": "Electronic",
+      "name": "Trance"
+    },
+    {
+      "category": "Electronic",
+      "name": "Dubstep"
+    },
+    {
+      "category": "Electronic",
+      "name": "Drum and Bass"
+    },
+    {
+      "category": "Electronic",
+      "name": "Ambient"
+    },
+    {
+      "category": "Electronic",
+      "name": "Techno"
+    },
+    {
+      "category": "Electronic",
+      "name": "Chillout"
+    },
+    {
+      "category": "Hip-Hop",
+      "name": "East Coast"
+    },
+    {
+      "category": "Hip-Hop",
+      "name": "West Coast"
+    },
+    {
+      "category": "Hip-Hop",
+      "name": "Gangsta Rap"
+    },
+    {
+      "category": "Hip-Hop",
+      "name": "Trap"
+    },
+    {
+      "category": "Hip-Hop",
+      "name": "Old School"
+    },
+    {
+      "category": "World Music",
+      "name": "Afrobeat"
+    },
+    {
+      "category": "World Music",
+      "name": "Salsa"
+    },
+    {
+      "category": "World Music",
+      "name": "Flamenco"
+    },
+    {
+      "category": "World Music",
+      "name": "Qawwali"
+    },
+    {
+      "category": "World Music",
+      "name": "Klezmer"
+    },
+    {
+      "category": "World Music",
+      "name": "Samba"
+    },
+    {
+      "category": "World Music",
+      "name": "Rumba"
+    },
+    {
+      "category": "Jazz",
+      "name": "Bebop"
+    },
+    {
+      "category": "Jazz",
+      "name": "Smooth Jazz"
+    },
+    {
+      "category": "Jazz",
+      "name": "Cool Jazz"
+    },
+    {
+      "category": "Jazz",
+      "name": "Jazz Fusion"
+    },
+    {
+      "category": "Country",
+      "name": "Bluegrass"
+    },
+    {
+      "category": "Country",
+      "name": "Honky Tonk"
+    },
+    {
+      "category": "Country",
+      "name": "Country Rock"
+    },
+    {
+      "category": "Country",
+      "name": "Country Pop"
+    },
+    {
+      "category": "Metal",
+      "name": "Heavy Metal"
+    },
+    {
+      "category": "Metal",
+      "name": "Death Metal"
+    },
+    {
+      "category": "Metal",
+      "name": "Thrash Metal"
+    },
+    {
+      "category": "Metal",
+      "name": "Black Metal"
+    },
+    {
+      "category": "Metal",
+      "name": "Power Metal"
+    },
+    {
+      "category": "Blues",
+      "name": "R&B"
+    },
+    {
+      "category": "Gospel",
+      "name": "Gospel"
+    },
+    {
+      "category": "Funk",
+      "name": "Funk"
+    },
+    {
+      "category": "Electronic",
+      "name": "Disco"
+    },
+    {
+      "category": "Rock",
+      "name": "Grunge"
+    },
+    {
+      "category": "Rock",
+      "name": "Shoegaze"
+    },
+    {
+      "category": "Electronic",
+      "name": "Downtempo"
+    },
+    {
+      "category": "Rock",
+      "name": "Post-Rock"
+    },
+    {
+      "category": "Electronic",
+      "name": "Industrial"
+    },
+    {
+      "category": "Pop",
+      "name": "Pop"
+    },
+    {
+      "category": "Classical",
+      "name": "Classical"
+    },
+    {
+      "category": "Hip-Hop",
+      "name": "Hip-Hop"
+    },
+    {
+      "category": "Country",
+      "name": "Country"
+    },
+    {
+      "category": "Blues",
+      "name": "Blues"
+    },
+    {
+      "category": "Electronic",
+      "name": "EDM"
+    },
+    {
+      "category": "Reggae",
+      "name": "Reggae"
+    },
+    {
+      "category": "Soul",
+      "name": "Soul"
+    },
+    {
+      "category": "Instrumental",
+      "name": "Instrumental"
+    },
+    {
+      "category": "Electronic",
+      "name": "Lo-Fi"
+    },
+    {
+      "category": "Emotions",
+      "name": "Happy"
+    },
+    {
+      "category": "Emotions",
+      "name": "Sad"
+    },
+    {
+      "category": "Emotions",
+      "name": "Angry"
+    },
+    {
+      "category": "Emotions",
+      "name": "Calm"
+    },
+    {
+      "category": "Emotions",
+      "name": "Motivational"
+    },
+    {
+      "category": "Emotions",
+      "name": "Nostalgic"
+    },
+    {
+      "category": "Activities",
+      "name": "Workout"
+    },
+    {
+      "category": "Activities",
+      "name": "Meditation"
+    },
+    {
+      "category": "Activities",
+      "name": "Study/Concentration"
+    },
+    {
+      "category": "Activities",
+      "name": "Dance"
+    },
+    {
+      "category": "Activities",
+      "name": "Driving/Road Trip"
+    },
+    {
+      "category": "Activities",
+      "name": "Sleep"
+    },
+    {
+      "category": "Scenarios",
+      "name": "Rainy Days"
+    },
+    {
+      "category": "Scenarios",
+      "name": "Sunny Days"
+    },
+    {
+      "category": "Scenarios",
+      "name": "Beach Vibes"
+    },
+    {
+      "category": "Scenarios",
+      "name": "Night Drives"
+    },
+    {
+      "category": "Scenarios",
+      "name": "Morning Wake Up"
+    },
+    {
+      "category": "Scenarios",
+      "name": "Evening Relaxation"
+    },
+    {
+      "category": "Special Occasions",
+      "name": "Weddings"
+    },
+    {
+      "category": "Special Occasions",
+      "name": "Birthdays"
+    },
+    {
+      "category": "Special Occasions",
+      "name": "Graduations"
+    },
+    {
+      "category": "Special Occasions",
+      "name": "Holidays"
+    },
+    {
+      "category": "Special Occasions",
+      "name": "Christmas"
+    },
+    {
+      "category": "Special Occasions",
+      "name": "Halloween"
+    },
+    {
+      "category": "Experiential",
+      "name": "Adventure/Discovery"
+    },
+    {
+      "category": "Experiential",
+      "name": "Romantic/Dating"
+    },
+    {
+      "category": "Experiential",
+      "name": "Reflection/Introspection"
+    },
+    {
+      "category": "Experiential",
+      "name": "Celebration/Party"
+    },
+    {
+      "category": "Cultural",
+      "name": "Festivals"
+    },
+    {
+      "category": "Cultural",
+      "name": "Rituals"
+    },
+    {
+      "category": "Cultural",
+      "name": "Renaissance"
+    },
+    {
+      "category": "Cultural",
+      "name": "Roaring Twenties"
+    },
+    {
+      "category": "Cultural",
+      "name": "Historical Epochs"
+    },
+    {
+      "category": "Instruments",
+      "name": "Guitar"
+    },
+    {
+      "category": "Instruments",
+      "name": "Piano"
+    },
+    {
+      "category": "Instruments",
+      "name": "Drums"
+    },
+    {
+      "category": "Instruments",
+      "name": "Violin"
+    },
+    {
+      "category": "Instruments",
+      "name": "Flute"
+    },
+    {
+      "category": "Instruments",
+      "name": "Saxophone"
+    },
+    {
+      "category": "Instruments",
+      "name": "Trumpet"
+    },
+    {
+      "category": "Music Production",
+      "name": "Mixing"
+    },
+    {
+      "category": "Music Production",
+      "name": "Mastering"
+    },
+    {
+      "category": "Music Production",
+      "name": "Sound Design"
+    },
+    {
+      "category": "Music Production",
+      "name": "Beat Making"
+    },
+    {
+      "category": "Cultural",
+      "name": "K-pop"
+    },
+    {
+      "category": "Cultural",
+      "name": "Bollywood"
+    },
+    {
+      "category": "Cultural",
+      "name": "Latin Beats"
+    },
+    {
+      "category": "Scenarios",
+      "name": "Love Songs"
+    },
+    {
+      "category": "Scenarios",
+      "name": "Party"
+    },
+    {
+      "category": "Scenarios",
+      "name": "Relaxation"
+    },
+    {
+      "category": "Eras",
+      "name": "60s"
+    },
+    {
+      "category": "Eras",
+      "name": "70s"
+    },
+    {
+      "category": "Eras",
+      "name": "80s"
+    },
+    {
+      "category": "Eras",
+      "name": "90s"
+    },
+    {
+      "category": "Eras",
+      "name": "2000s"
+    },
+    {
+      "category": "Eras",
+      "name": "2010s"
+    },
+    {
+      "category": "Eras",
+      "name": "2020s"
+    },
+    {
+      "category": "Music Technology",
+      "name": "Synthesizers"
+    },
+    {
+      "category": "Music Technology",
+      "name": "Digital Audio Workstations (DAW)"
+    },
+    {
+      "category": "Music Technology",
+      "name": "Analog Recording"
+    },
+    {
+      "category": "Music Theory",
+      "name": "Scales"
+    },
+    {
+      "category": "Music Theory",
+      "name": "Chords"
+    },
+    {
+      "category": "Music Theory",
+      "name": "Rhythms"
+    },
+    {
+      "category": "Acoustic",
+      "name": "Acoustic"
+    },
+    {
+      "category": "Live",
+      "name": "Live Performances"
+    },
+    {
+      "category": "Live",
+      "name": "Music Festivals"
+    },
+    {
+      "category": "Live",
+      "name": "Music Reviews"
+    },
+    {
+      "category": "Live",
+      "name": "Music News"
+    }
+  ]
+}

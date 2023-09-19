@@ -4,10 +4,24 @@ import morgan from "morgan";
 import helmet from "helmet";
 import cors from "cors";
 import { connectToMongo } from "./config/DatabaseConfig";
+import swaggerUi from "swagger-ui-express";
+import swaggerJSDoc from "swagger-jsdoc";
+
+const options = {
+  failOnErrors: true, // Whether or not to throw when parsing errors. Defaults to false.
+  definition: {
+    swagger: "2.0",
+    info: {
+      title: "Sonarly API",
+      version: "1.0.0",
+    },
+  },
+  apis: ["./src/objects/**/*routes.ts"],
+};
 
 // ROUTES
-import UserRoutes from "./objects/User/User.routes";
-import AuthRoutes from "./auth/auth.routes";
+import UserAccountRoutes from "./objects/UserAccount/UserAccount.routes";
+import PostRoutes from "./objects/Post/Post.routes";
 
 class Server {
   public app: express.Application;
@@ -27,6 +41,8 @@ class Server {
 
   config() {
     /* Middleware y dependencias importantes de nuestra API */
+    const swaggerSpec = swaggerJSDoc(options);
+    this.app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
     this.app.use(morgan("dev"));
     this.app.use(helmet());
     this.app.use(cors());
@@ -34,8 +50,8 @@ class Server {
 
   routes() {
     /* Las routes de nuestra API */
-    this.app.use(AuthRoutes);
-    this.app.use(UserRoutes);
+    this.app.use(UserAccountRoutes);
+    this.app.use(PostRoutes);
   }
 
   start() {
